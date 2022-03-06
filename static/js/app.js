@@ -61,7 +61,7 @@ function updateFilters() {
     // matches the filter values
     filters.forEach((fil) => {
       filteredData = filteredData.filter(filters===filterId);
-    }
+    })
   
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
